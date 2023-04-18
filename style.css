@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #add_text {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  #btn {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color:  #37ad93;
+    color: white;
+    cursor: pointer;
+  }
+  #btn:hover{
+    background-color:#29e2ba; ;
+  }
+  .listcontainer {
+    margin-top: 20px;
+  }
+  
+  ol {
+    margin-left: 20px;
+  }
+  .clicked{
+    text-decoration: line-through;
+    background-color: gray;
+  }
+
+ 
+  ol li {
+    width: 80%;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  ol li span {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    padding: 10px;
+    background-color: #fd0b0b;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20%;
+  }
+  
+  ol li span:hover {
+    background-color: #e03b3b;
+  }
+  
+  
